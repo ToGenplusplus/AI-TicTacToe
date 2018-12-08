@@ -193,7 +193,7 @@ public class gmboard {
 	public void declarewinner() {
 		if(PlayerWon(PLAYER_AI))
 			System.out.println("You lost");
-		else if(PlayerWon(PLAYER_AI) )
+		else if(PlayerWon(PLAYER_H) )
 			System.out.println("You Win!!!");
 		else
 			System.out.println("Its a Draw");
